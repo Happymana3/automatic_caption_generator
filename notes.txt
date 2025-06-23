@@ -1,0 +1,5 @@
+conda activate captiongen
+
+
+"C:\ffmpeg-2025-03-24-git-cbbc927a67-essentials_build\bin\ffmpeg.exe" -i "videos/sample_video.mp4" -vf "subtitles=captions/output.srt" "videos/output_video.mp4"
+
